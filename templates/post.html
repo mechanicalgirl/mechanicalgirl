@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <div class="home-page-posts animated fadeIn">
+
+    {% if entry %}
+
+      <article class="post">
+        <div class="post-preview col-xs-12 no-gutter" style="width: 700px">
+          <h1>{{ entry.title }}</h1>
+
+          <table>
+            <tr valign="top">
+              <td style="font-size: 12px; width: 300px;">
+                {% for category in entry.category_list %}
+                  <a href="/category/{{ category.id }}/">{{ category.name }}</a>&nbsp;&nbsp;&nbsp;
+                {% endfor %}
+              </td>
+              <td style="font-size: 12px;">{{ entry.date }}</td>
+            </tr>
+          </table>
+
+          <p>
+            {{ entry.body|safe }}
+         </p>
+        </div>
+      </article>
+
+    {% else %}
+
+      <article class="post">
+        <div class="post-preview col-xs-10 no-gutter">
+          <p>Sorry, nothing to see here.</p>
+        </div>
+      </article>
+
+    {% endif %}
+
+  </div> <!-- home-page-posts animated fadeIn -->
+
+{% endblock %}

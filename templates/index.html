@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="sub-nav">
+    <a href="/" class="select-posts active">Posts</a>
+  </div>
+
+  <div class="home-page-posts animated fadeIn">
+
+    {% if posts %}
+
+      {% for entry in posts %}
+
+        <article class="post">
+          <div class="post-preview col-xs-12 no-gutter">
+            <h2><a href="/post/{{ entry.slug }}/">{{ entry.title }}</a></h2>
+            <p>{{ entry.body_snippet|safe }} ... <a href="/post/{{ entry.slug }}/">Read more</a></p>
+
+            <div style="float: right; font-size: 12px;">{{ entry.date }}</div>
+            <div style="float: left; font-size: 12px;">
+              {% for category in entry.category_list %}
+                <a href="/category/{{ category.id }}/">{{ category.name }}</a>&nbsp;&nbsp;&nbsp;
+              {% endfor %}
+            </div>
+          </div>
+        </article>
+
+      {% endfor %}    
+
+    {% else %}
+      No entries available.<br />
+    {% endif %}
+
+  </div> <!-- home-page-posts animated fadeIn -->
+
+{% endblock %}

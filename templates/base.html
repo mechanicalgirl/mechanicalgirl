@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Mechanicalgirl.com</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/codewrap.css') }}">
+
+  <script src="{{ url_for('static', filename='js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js') }}"></script>
+</head>
+<body>
+
+<main class="container left-container">
+  <div class="row">
+
+<section class="col-md-7 col-sm-12 col-md-offset-5 main-content">
+  {% block content %}{% endblock %}
+  <div class="pagination" align="center">
+    {% if pagination %}
+       {% for page_number in pagination %}
+         <a href="/pages/{{ page_number }}/">{{ page_number }}</a>&nbsp;
+       {% endfor %}
+    {% endif %}
+  </div>
+</section>
+
+<section class="sidebar col-md-5 col-sm-12" style="background-image: url({{ url_for('static', filename='images/sidebar-greenwich2_reduced.jpeg') }}); left: 0px;">
+    <div class="no-js-menu">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="https://github.com/mechanicalgirl" target="new">GitHub</a></li>
+        <li><a href="http://www.linkedin.com/in/barbarashaurette" target="new">LinkedIn</a></li>
+        <li><a href="http://twitter.com/bshaurette" target="new">Twitter</a></li>
+        <li><a href="https://DjangoPonyTattoo.etsy.com/" target="new">Etsy</a></li>
+        <li><a href="https://www.instagram.com/b_shaurette_art/" target="new">Instagram</a></li>
+        <li><a href="https://www.youtube.com/channel/UCAwT0GDzzEKrOLa0bK_9DCA" target="new">YouTube</a></li>
+        <li><a href="https://www.tiktok.com/@barbarashaurette" target="new">TikTok</a></li>
+      </ul>
+    </div>
+
+    <div class="site-info">
+      <div class="primary-info">
+        <h1>Barbara Shaurette</h1>
+        <p>Python Developer and Educator</p>
+      </div>
+      <div class="secondary-info">
+        <p><a class="btn btn-default" href="mailto:barbara.shaurette@gmail.com">Contact</a></p>
+      </div>
+    </div> <!-- end site-info -->
+
+</section>
+
+  </div> <!--/row -->
+</main> <!-- /container -->
+
+<!-- footer -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{ url_for('static', filename='js/vendor/jquery-1.11.2.min.js') }}"><\/script>')</script>
+<script src="{{ url_for('static', filename='js/vendor/jquery.jpanelmenu.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/vendor/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/vendor/fastclick.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-94023337-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- end footer -->
+
+</body>
+</html>

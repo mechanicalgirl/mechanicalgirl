@@ -1,3 +1,4 @@
 db.sqlite3
-static/images/posts/*
-static/images/posts/slackapp/*
+static/images/*
+notes.txt
+__pycache__/

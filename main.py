@@ -1,4 +1,4 @@
-# gunicorn -w 4 'app:app'
+# gunicorn -w 4 'main:app'
 # local: flask run
 
 import math

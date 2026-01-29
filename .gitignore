@@ -1,0 +1,14 @@
+.DS_Store
+icons.pxm
+db.sqlite3
+instance/db.sqlite3.source
+instance/db.sqlite3.test
+rss.xml
+*.py.swp
+uberspace_notes.txt
+static/images/*
+GCP_NOTES.txt
+NOTES.txt
+DEPLOY.md
+venv
+__pycache__/

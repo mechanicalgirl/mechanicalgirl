@@ -1,8 +1,8 @@
 Currently working on ... and associated projects. 
 
 Find me on:
-[Mastodon](https://social.linux.pizza/@bshaurette)
-[Bluesky](https://bsky.app/profile/mechanicalgirl.com)
+[ [Mastodon](https://social.linux.pizza/@bshaurette) ]
+[ [Bluesky](https://bsky.app/profile/mechanicalgirl.com) ]
 
 ### On my blog
 <!-- blog starts -->
@@ -12,5 +12,5 @@ Find me on:
 * [How Can I Help?](https://www.mechanicalgirl.com/post/how-can-i-help/) - Tue, 29 Apr 2025
 * [Monitoring GCP Costs with Pub/Sub and Python](https://www.mechanicalgirl.com/post/monitoring-gcp-costs-with-pub-sub-and-python/) - Thu, 17 Apr 2025
 <!-- blog ends -->
-More on [mechanicalgirl.com/](https://mechanicalgirl.com/)
+More at [mechanicalgirl.com/](https://mechanicalgirl.com/)
 

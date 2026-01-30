@@ -1,0 +1,34 @@
+import feedparser
+import json
+import pathlib
+import re
+import os
+
+def replace_chunk(content, marker, chunk):
+    r = re.compile(
+        r"<!\-\- {} starts \-\->.*<!\-\- {} ends \-\->".format(marker, marker),
+        re.DOTALL,
+    )
+    chunk = "<!-- {} starts -->\n{}\n<!-- {} ends -->".format(marker, chunk, marker)
+    return r.sub(chunk, content)
+
+def fetch_blog_entries():
+    entries = feedparser.parse("https://mechanicalgirl.com/rss")["entries"]
+    return [
+        {
+            "title": entry["title"],
+            "url": entry["link"],
+            "published": entry["published"].split("00")[0].rstrip(),
+        }
+        for entry in entries
+    ]
+
+if __name__ == "__main__":
+    readme = root / "README.md"
+    entries = fetch_blog_entries()[:5]
+    entries_md = "\n".join(
+        ["* [{title}]({url}) - {published}".format(**entry) for entry in entries]
+    )
+    rewritten = replace_chunk(rewritten, "blog", entries_md)
+
+    readme.open("w").write(rewritten)

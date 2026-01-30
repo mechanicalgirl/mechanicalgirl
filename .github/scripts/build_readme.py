@@ -4,6 +4,8 @@ import pathlib
 import re
 import os
 
+root = pathlib.Path(__file__).parent.resolve()
+
 def replace_chunk(content, marker, chunk):
     r = re.compile(
         r"<!\-\- {} starts \-\->.*<!\-\- {} ends \-\->".format(marker, marker),
@@ -24,7 +26,7 @@ def fetch_blog_entries():
     ]
 
 if __name__ == "__main__":
-    readme = root / "README.md"
+    readme = root/"README.md"
     entries = fetch_blog_entries()[:5]
     entries_md = "\n".join(
         ["* [{title}]({url}) - {published}".format(**entry) for entry in entries]

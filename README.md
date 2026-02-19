@@ -7,12 +7,12 @@ I'm a Site Reliability Engineer with five years of experience building and maint
 
 I have also been a speaker and educator in the Python community. From 2013-2018 I organized and taught the Young Coders tutorials at PyCon, teaching Python to middle school students. I've also been a conference speaker at DjangoCon and PyCon. My last appearance onstage was on the "Building on a connected ecosystem" panel at Fastly’s Xcelerate LA in 2025.
 
-Find me on:
+### Find me on:
 - [Mastodon](https://social.linux.pizza/@bshaurette)
 - [Bluesky](https://bsky.app/profile/mechanicalgirl.com)
 - [LinkedIn](https://www.linkedin.com/in/barbarashaurette/)
 
-[My resume](Resume-BarbaraShaurette.pdf)
+### My resume: [Resume-BarbaraShaurette.pdf](Resume-BarbaraShaurette.pdf)
 
 ### On my blog
 <!-- blog starts -->

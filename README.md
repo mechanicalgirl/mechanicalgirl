@@ -12,6 +12,8 @@ Find me on:
 - [Bluesky](https://bsky.app/profile/mechanicalgirl.com)
 - [LinkedIn](https://www.linkedin.com/in/barbarashaurette/)
 
+[My resume](Resume-BarbaraShaurette.pdf)
+
 ### On my blog
 <!-- blog starts -->
 * [Solving My News Overload Problem With Claude and BeautifulSoup](https://www.mechanicalgirl.com/post/solving-my-news-overload-problem-with-claude-and-beautifulsoup/) - Sat, 14 Feb 2026

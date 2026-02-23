@@ -16,11 +16,11 @@ I have also been a speaker and educator in the Python community. From 2013-2018 
 
 ### On my blog
 <!-- blog starts -->
+* [A non-exhaustive list of my SRE work at Vox](https://www.mechanicalgirl.com/post/a-non-exhaustive-list-of-my-sre-work-at-vox/) - Mon, 23 Feb 2026
 * [Solving My News Overload Problem With Claude and BeautifulSoup](https://www.mechanicalgirl.com/post/solving-my-news-overload-problem-with-claude-and-beautifulsoup/) - Sat, 14 Feb 2026
 * [Monitoring GCP Costs with Pub/Sub and Python: Part 2](https://www.mechanicalgirl.com/post/monitoring-gcp-costs-with-pub-sub-and-python-part-2/) - Fri, 18 Jul 2025
 * [Capitalism and Prison Labor Go Hand-in-Hand](https://www.mechanicalgirl.com/post/capitalism-prison-labor-hand-in-hand/) - Thu, 19 Jun 2025
 * [Monitoring GCP Costs with Pub/Sub and Python: Part 1](https://www.mechanicalgirl.com/post/monitoring-gcp-costs-with-pub-sub-and-python-part-1/) - Fri, 16 May 2025
-* [How Can I Help?](https://www.mechanicalgirl.com/post/how-can-i-help/) - Tue, 29 Apr 2025
 <!-- blog ends -->
 More at [mechanicalgirl.com/](https://mechanicalgirl.com/)
 

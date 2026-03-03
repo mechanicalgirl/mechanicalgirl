@@ -12,7 +12,9 @@ I have also been a speaker and educator in the Python community. From 2013-2018 
 - [Bluesky](https://bsky.app/profile/mechanicalgirl.com)
 - [LinkedIn](https://www.linkedin.com/in/barbarashaurette/)
 
-### My resume: [Resume-BarbaraShaurette.pdf](Resume-BarbaraShaurette.pdf)
+### My resume:
+
+[Resume-BarbaraShaurette.pdf](Resume-BarbaraShaurette.pdf)
 
 ### On my blog
 <!-- blog starts -->

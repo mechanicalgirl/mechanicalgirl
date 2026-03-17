@@ -18,11 +18,11 @@ I have also been a speaker and educator in the Python community. From 2013-2018 
 
 ### On my blog
 <!-- blog starts -->
+* [AI (In)Security: What I see in the wild and why it worries me](https://www.mechanicalgirl.com/post/ai-in-security-what-i-m-seeing-in-the-wild-and-why-it-worries-me/) - Tue, 17 Mar 2026
 * [A non-exhaustive list of my SRE work at Vox](https://www.mechanicalgirl.com/post/a-non-exhaustive-list-of-my-sre-work-at-vox/) - Mon, 23 Feb 2026
 * [Solving My News Overload Problem With Claude and BeautifulSoup](https://www.mechanicalgirl.com/post/solving-my-news-overload-problem-with-claude-and-beautifulsoup/) - Sat, 14 Feb 2026
 * [Monitoring GCP Costs with Pub/Sub and Python: Part 2](https://www.mechanicalgirl.com/post/monitoring-gcp-costs-with-pub-sub-and-python-part-2/) - Fri, 18 Jul 2025
 * [Monitoring GCP Costs with Pub/Sub and Python: Part 1](https://www.mechanicalgirl.com/post/monitoring-gcp-costs-with-pub-sub-and-python-part-1/) - Fri, 16 May 2025
-* [Southern California Linux Expo 2025](https://www.mechanicalgirl.com/post/southern-california-linux-expo-2025/) - Sat, 29 Mar 2025
 <!-- blog ends -->
 More at [mechanicalgirl.com/](https://mechanicalgirl.com/)
 

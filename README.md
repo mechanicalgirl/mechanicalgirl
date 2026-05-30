@@ -18,11 +18,11 @@ I have also been a speaker and educator in the Python community. From 2013-2018 
 
 ### On my blog
 <!-- blog starts -->
+* [My Visit to NASA-JPL](https://www.mechanicalgirl.com/post/my-visit-to-nasa-jpl/) - Fri, 29 May 2026
 * [PyCon 2026 Through An Introverts Eyes](https://www.mechanicalgirl.com/post/pycon-2026-through-an-introvert-s-eyes/) - Tue, 26 May 2026
 * [My Latest Personal Projects](https://www.mechanicalgirl.com/post/my-latest-personal-projects/) - Wed, 29 Apr 2026
 * [Why You Should Go To North Bay Python Next Year](https://www.mechanicalgirl.com/post/here-s-why-you-should-go-to-north-bay-python-next-year/) - Mon, 27 Apr 2026
 * [Dave Left and Nobody Documented Anything](https://www.mechanicalgirl.com/post/dave-left-and-nobody-documented-anything/) - Wed, 25 Mar 2026
-* [AI (In)Security: What I see in the wild and why it worries me](https://www.mechanicalgirl.com/post/ai-in-security-what-i-m-seeing-in-the-wild-and-why-it-worries-me/) - Tue, 17 Mar 2026
 <!-- blog ends -->
 More at [mechanicalgirl.com/](https://mechanicalgirl.com/)
 

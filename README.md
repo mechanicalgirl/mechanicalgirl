@@ -14,11 +14,11 @@ I have also been a speaker and educator in the Python community. From 2013-2018 
 
 ### On my blog
 <!-- blog starts -->
+* [My Dog Is Dying](https://www.mechanicalgirl.com/post/my-dog-is-dying/) - Sun, 13 Sep 2026
 * [SoCal Python Pasadena July Meetup @ Jones Coffee Roasters](https://www.mechanicalgirl.com/post/socal-python-pasadena-july-meetup-jones-coffee-roasters/) - Fri, 10 Jul 2026
 * [A Tour of Castle Green](https://www.mechanicalgirl.com/post/a-tour-of-castle-green/) - Thu, 18 Jun 2026
 * [My Visit to NASA-JPL](https://www.mechanicalgirl.com/post/my-visit-to-nasa-jpl/) - Fri, 29 May 2026
 * [PyCon 2026 Through An Introverts Eyes](https://www.mechanicalgirl.com/post/pycon-2026-through-an-introvert-s-eyes/) - Tue, 26 May 2026
-* [My Latest Personal Projects](https://www.mechanicalgirl.com/post/my-latest-personal-projects/) - Wed, 29 Apr 2026
 <!-- blog ends -->
 More at [mechanicalgirl.com/](https://mechanicalgirl.com/)
 
